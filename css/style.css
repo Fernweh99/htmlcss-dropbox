@@ -73,6 +73,10 @@ section {
     text-align: right;
 }
 
+.txt-ctr {
+    text-align: center;
+}
+
 .mgl-20p {
     margin-left: 20px;
 }
@@ -93,6 +97,51 @@ section {
     height: calc(100% - 100px);
 }
 
+.h-250p {
+    height: 250px;
+}
+
+.fb-250p {
+    flex-basis: 250px;
+}
+
+/* background color */
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-dkblue {
+    background-color: var(--darkblue);
+}
+
+.bg-licyan {
+    background-color: var(--lightcyan);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-cyan {
+    background-color: var(--cyan);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-burgundy {
+    background-color: var(--burgundy);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
 /* Flexbox Utils */
 .d-flex {
     display: flex;
@@ -104,6 +153,10 @@ section {
 
 .j-cont-end {
     justify-content: end;
+}
+
+.j-cont-ctr {
+    justify-content: center;
 }
 
 .al-ctr {
@@ -140,6 +193,14 @@ section {
 
 .fb-100 {
     flex-basis: 100%;
+}
+
+.calc-fb-3 {
+    flex-basis: calc(100% / 3);
+}
+
+.calc-fb-2 {
+    flex-basis: calc(100% / 2);
 }
 
 /* Header */
@@ -262,3 +323,8 @@ section h2 {
     margin-top: 20px;
 }
 
+
+/* Blocchi flex */
+section.structure img {
+    width: 50%;
+}
