@@ -155,20 +155,12 @@ section {
     justify-content: end;
 }
 
-.j-cont-ctr {
-    justify-content: center;
-}
-
 .al-ctr {
     align-items: center;
 }
 
 .sp-btw {
     justify-content: space-between;
-}
-
-.al-bas {
-    align-items: baseline;
 }
 
 .wrap {
@@ -197,10 +189,6 @@ section {
 
 .calc-fb-3 {
     flex-basis: calc(100% / 3);
-}
-
-.calc-fb-2 {
-    flex-basis: calc(100% / 2);
 }
 
 /* Header */
@@ -313,6 +301,7 @@ section h2 {
     text-align: center;
 }
 
+/* Section partner */
 .partner {
     padding: 35px 25px;
 }
@@ -327,4 +316,12 @@ section h2 {
 /* Blocchi flex */
 section.structure img {
     width: 50%;
+}
+
+.block {
+    flex-basis: calc(100% / 2);
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    display: flex;
 }
