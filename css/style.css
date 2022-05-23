@@ -118,6 +118,10 @@ section {
     align-items: baseline;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .fb-30 {
     flex-basis: 30%;
 }
