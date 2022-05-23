@@ -1,0 +1,39 @@
+/* Root */
+:root {
+    --lightcyan: #B4D0E7;
+    --blue: #0061FF;
+    --green: #A2D39B;
+    --burgundy: #61082B;
+    --orange: #FF1C1C;
+    --cyan: #0093CE;
+    --red: #D5001F;
+    --darkblue: #0D2481;
+    --grey: #F5F5F5;
+    --yellow: #FFD830;
+    --bordercolor: #C4C4C4;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generals */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Utils */
+
+.container-jf {       /* jumbotron e footer */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-m {        /* main */
+    width: 1100px;
+    margin: 0 auto;
+}
