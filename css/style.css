@@ -373,7 +373,7 @@ section.structure img {
 
 /* Section answer */
 .answer {
-    padding: 20px 0;
+    padding: 30px 0;
     border-bottom: 1px solid var(--bordercolor);
     font-size: 12px;
 }
