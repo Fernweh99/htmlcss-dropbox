@@ -10,7 +10,7 @@
     --darkblue: #0D2481;
     --grey: #F5F5F5;
     --yellow: #FFD830;
-    --bordercolor: #C4C4C4;
+    --bordercolor: #dddddd;
 }
 
 /* Reset */
@@ -44,10 +44,10 @@ img {
     width: 100%;
 }
 
-span {
+span,p {
     font-size: 12px;
     font-weight: lighter;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 section {
@@ -63,6 +63,13 @@ h3 {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.line {
+   width: 20%;
+   margin: 30px 0;
+   height: 1px;
+   background-color: var(--bordercolor);
 }
 
 /* Utils */
@@ -277,8 +284,7 @@ a.stand {
 
 .billing span {
     margin-right: 30px;
-    line-height: 30px;
-    margin-bottom: 0;
+    margin-bottom: 1px;
 }
 
 .plans {
@@ -297,17 +303,11 @@ a.stand {
     padding: 30px 25px;
 }
 
-.plans hr {
-    width: 35px;
-    margin: 30px 0;
-    background-color: var(--bordercolor);
-}
-
 .prova {
     background-color: var(--blue);
     color: white;
     padding: 8px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -319,7 +319,6 @@ a.stand {
 .partner a {
     padding: 7px 10px;
     border: 1px solid black;
-    margin-top: 20px;
 }
 
 /* Section operation flex */
@@ -335,6 +334,7 @@ a.stand {
 /* Blocchi flex */
 section.structure img {
     width: 50%;
+    filter: invert(1);
 }
 
 .block {
@@ -343,6 +343,32 @@ section.structure img {
     justify-content: center;
     height: 250px;
     display: flex;
+}
+
+.structure .c-block img{
+    filter: invert(0);
+}
+
+.c-block {
+    padding: 35px;
+}
+
+.block.bg-green{
+    border: 12px solid #D1E9CD;
+}
+
+.btn-w {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 30px;
+    background-color: white;
+    padding: 6px 35px;
+}
+
+.b-row h2{
+    color: var(--burgundy);
+    margin-bottom: 0;
 }
 
 /* Section answer */
@@ -361,3 +387,4 @@ section.structure img {
     top:calc(100% / 2);
     transform: translatey(-50%);
 }
+
