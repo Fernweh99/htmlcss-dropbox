@@ -35,8 +35,9 @@ a {
     font-size: 12px;
 }
 
-ul {
+li {
     list-style-type: none;
+    display: inline-block;
 }
 
 img {
@@ -469,6 +470,10 @@ footer a {
 footer .line {
    margin: 80px 0 30px 0; 
    width: 10%;
+}
+
+footer li {
+    display: block;
 }
 
 .languages i, .languages .lang{
