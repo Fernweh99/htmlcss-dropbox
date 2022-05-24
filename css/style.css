@@ -210,6 +210,10 @@ h3 {
     flex-basis: 60%;
 }
 
+.fb-65 {
+    flex-basis: 65%;
+}
+
 .fb-70 {
     flex-basis: 70%;
 }
@@ -317,7 +321,7 @@ a.stand {
     padding: 30px 25px;
 }
 
-.content-pln h4 {
+.content-pln h4, .content-pln a {
     font-size: 11px;
 }
 
@@ -331,7 +335,7 @@ span.price {
     font-weight: 600;
 }
 
-span.time-abb {
+span.time-price {
     margin-bottom: 0;
     color: gray;
 }
