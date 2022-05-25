@@ -37,7 +37,7 @@
             <div class="log d-inbl">
                 <ul>
                     <li><a class="log-in" href="#">Accedi</a></li>
-                    <li><a class="sign-in" href="#">Inizia</a></li>
+                    <li><a id="sign-in" href="#">Inizia</a></li>
                 </ul>
             </div>
         </div>
@@ -60,7 +60,7 @@
                         <span>Annulla in qualsiasi momento</span>
                     </div>
                     <div class="fb-30 d-flex fd-col j-cont-end">
-                        <i class="fa-solid fa-arrow-down fa-3x"></i>
+                        <a href="#plans"><i class="fa-solid fa-arrow-down fa-5x"></i></a>
                     </div>
                 </div>
                 <div class="fb-70 p-rel">
@@ -72,7 +72,7 @@
     <!-- Contenuto principale -->
     <main>
         <div class="container-m">
-            <section class="plans">
+            <section id="plans">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="billing d-flex al-ctr">
                     <div class="circle blue"></div>
@@ -330,7 +330,7 @@
                 <!-- prima riga -->
                 <div class="d-flex">
                     <!-- colonna destra -->
-                    <div class="calc-fb-3 d-flex wrap">
+                    <div class="squares d-flex wrap">
                         <div class="block bg-green">
                             <img src="img/designit.svg" alt="designit">
                         </div>
@@ -345,18 +345,20 @@
                         </div>
                     </div>
                     <!-- colonna centrale -->
-                    <div class="calc-fb-3 bg-grey c-block">
-                        <img src="img/designit.svg" alt="designit">
-                        <div class="line"></div>
-                        <p>"I membri del nostro team lavorano costantemente in paesi, fusi orari e uffici diversi.
-                            Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox
-                            e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile
-                            quanto Dropbox e Dropbox Paper".
-                        </p>
-                        <p>Marten Thomsen, Global IT Lead</p>
+                    <div class="squares bg-grey">
+                        <div class="c-block">
+                            <img src="img/designit.svg" alt="designit">
+                            <div class="line"></div>
+                            <p>"I membri del nostro team lavorano costantemente in paesi, fusi orari e uffici diversi.
+                                Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox
+                                e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile
+                                quanto Dropbox e Dropbox Paper".
+                            </p>
+                            <p>Marten Thomsen, Global IT Lead</p>
+                        </div>
                     </div>
                     <!-- colonna sinistra -->
-                    <div class="calc-fb-3 d-flex wrap">
+                    <div class="squares d-flex wrap">
                         <div class="block bg-red">
                             <img src="img/world_bicycle_relief.svg" alt="world bicycle relief">
                         </div>
@@ -372,7 +374,7 @@
                     </div>
                 </div>
                 <!-- seconda riga -->
-                <div class="d-flex fb-250p bg-licyan b-row">
+                <div class="d-flex calc-fb-6 bg-licyan b-row">
                     <div class="container-m d-flex wrap al-ctr">
                         <div class="p-rel fb-100">
                             <h2>Porta Dropbox Business<br>nella tua azienda</h2>
@@ -385,7 +387,7 @@
         <!-- Sezione domande -->
         <section class="container-m">
             <h2>Domande frequenti</h2>
-            <div class="answer btp p-rel">
+            <div class="answer bdt p-rel">
                 <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                 <i class="fa-solid fa-angle-down"></i>
             </div>
