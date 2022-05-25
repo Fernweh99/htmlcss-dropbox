@@ -434,6 +434,11 @@ section.structure img {
 }
 
 /* Section answer */
+.answers {
+    min-height: 400px;
+    margin-bottom: 60px;
+}
+
 .answer {
     padding: 30px 0;
     border-bottom: 1px solid var(--bordercolor);
@@ -452,7 +457,6 @@ section.structure img {
 
 /* Footer */
 footer {
-    margin-top: 100px;
     background-color: black;
     color: white;
     min-height: 400px;
