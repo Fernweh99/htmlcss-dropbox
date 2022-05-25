@@ -516,3 +516,14 @@ header.nav a:hover {
 .answer:hover .fa-angle-down{
     transform: rotate(180deg);
 }
+
+/* Section structure block */
+.block {
+    transition: border .5s;
+    border: 15px solid transparent ;
+    cursor: pointer;
+}
+
+.block:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+}
