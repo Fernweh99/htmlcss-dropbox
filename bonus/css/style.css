@@ -527,3 +527,12 @@ header.nav a:hover {
 .block:hover {
     border-color: rgba(255, 255, 255, 0.6);
 }
+
+/* button hover */
+.prova, #sign-in{
+    transition: background-color 0.5s;
+}
+
+.prova:hover, #sign-in:hover{
+    background-color: rgba(0,97,255,0.7);
+}
