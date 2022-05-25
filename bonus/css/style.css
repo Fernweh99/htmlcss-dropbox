@@ -264,6 +264,7 @@ header.nav a{
     background-color: var(--blue);
     height: 30px;
     line-height: 30px;
+    border: 0;
 }
 
 .logo img {
@@ -414,10 +415,6 @@ section.structure img {
     padding: 35px;
 }
 
-.block.bg-green{
-    border: 12px solid #D1E9CD;
-}
-
 .btn-w {
     position: absolute;
     right: 0;
@@ -491,4 +488,11 @@ footer li {
 
 .lang {
     margin: 0 3px;
+}
+
+/* Effects */
+/* Navbar */
+
+header.nav a:hover {
+    border-bottom: 2px solid black;
 }
