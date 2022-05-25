@@ -225,6 +225,10 @@ h3 {
     flex-basis: 70%;
 }
 
+.fb-80 {
+    flex-basis: 80%;
+}
+
 .fb-100 {
     flex-basis: 100%;
 }
@@ -495,4 +499,20 @@ footer li {
 
 header.nav a:hover {
     border-bottom: 2px solid black;
+}
+
+/* Section answer */
+.answer p{
+    display: none;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.answer:hover p{
+    display: block;
+}
+
+.answer:hover .fa-angle-down{
+    transform: rotate(180deg);
 }
