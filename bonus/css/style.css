@@ -188,7 +188,7 @@ h3 {
     justify-content: end;
 }
 
-.al-lf {
+.al-fs {
     align-items: flex-start;
 }
 
@@ -196,7 +196,7 @@ h3 {
     align-items: center;
 }
 
-.sp-btw {
+.j-cont-btw {
     justify-content: space-between;
 }
 
@@ -236,7 +236,7 @@ h3 {
     flex-basis: 100%;
 }
 
-.fb-cal {
+.fb-calc {
     flex-basis: calc(100% - 15px);
 }
 
@@ -282,14 +282,14 @@ header.nav a{
     padding-top: 10px ;
 }
 
-header.jumbotron {
+div.jumbotron {
     background-color: var(--lightcyan);
     height: 650px;
     padding-top: 100px;
     margin-bottom: 110px;
 }
 
-header h1 {
+.jumbotron h1 {
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 30px;
@@ -367,7 +367,7 @@ span.time-price {
     margin: 30px 0;
 }
 
-.prova {
+.btn-blue {
     background-color: var(--blue);
     color: white;
     padding: 8px 20px;
@@ -536,10 +536,10 @@ header.nav a:hover {
 }
 
 /* button hover */
-.prova, #sign-in{
+.btn-blue, #sign-in{
     transition: background-color 0.5s;
 }
 
-.prova:hover, #sign-in:hover{
+.btn-blue:hover, #sign-in:hover{
     background-color: rgba(0,97,255,0.7);
 }
